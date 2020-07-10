@@ -20,7 +20,7 @@ import (
 	"flag"
 	"github.com/cossacklabs/acra/logging"
 	log "github.com/sirupsen/logrus"
-	"go.opencensus.io/exporter/jaeger"
+	"contrib.go.opencensus.io/exporter/jaeger"
 	"go.opencensus.io/trace"
 	"os"
 )
